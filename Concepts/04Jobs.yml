@@ -1,0 +1,23 @@
+Core Terms:
+ parameters
+ Source Control Management
+ Build trigger:
+   The alert or method to start the jenkins build process
+  
+ Build Environment
+ Build and post-build actions
+ Workspace:
+    A root directory where jenkins keep the code and any other files during build.
+ Artifact:
+   A file generated at the end of the build
+
+ Don't use space in project name use display name to change the heading in the dashboard
+
+
+ Create first Jenkins Job:
+
+  choose freestyle project
+  
+sparse check path
+check how to pass parameters
+check how to schedule jobsgi

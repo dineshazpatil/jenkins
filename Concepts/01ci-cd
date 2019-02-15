@@ -1,0 +1,4 @@
+Continous Integration:
+    is soft development practice wherby members of team integrate , build and test their code frequently in a development environment
+Continous development/Deployment
+    every change automatically gets pushed to production, resulting in many production Deployment every day.

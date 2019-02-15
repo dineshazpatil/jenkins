@@ -1,0 +1,104 @@
+pipeline as code
+
+set of features allowing to define and combine job processes with code scm
+
+jenkins jobs and config defined as code
+discover , manage and run jobs for multiple repositories and branches
+
+reduce manual creation and mgmt of jobs
+
+
+Infra as code
+  manage and provision IT infra thorugh code rather than manual.
+  Automate IT Proceses
+  Repeatable configuration
+
+TYpe of Pipelines
+  CI using multiple branches and repo
+  CD to multiple environments
+  Data Processing (ETL)
+  Event Drivem Workflows
+  Build promotion
+  Conditional Promotion
+
+Implementations
+  Pileline plugin
+  Jenkinsfile
+  Domain-Specific Language using groovy
+  Pipeline shared libraries
+  Stage views
+
+
+Benefits of pipelines
+  Code:
+     pipelines are implementated in code and in SCM
+  Resilient:
+     pipelines can survive Jenkins restarts
+  Pausable:
+    pipelines can stop and wait for manual process
+  Versatile:
+    pipelines support complex requirements (loops, conditionals, matrix, parallelization)
+  Extensible:
+    DSL extensions and shared library can be integrated
+  Visual:
+    pipelines can be visualized thus improving visibility to non-technical people 
+
+
+
+
+Jenkinsfile
+ a script containing definition and the steps to execute in Jenkins pipeline
+ Typically stored under version control at the root level of repo
+ Written using DSL based on Groovy
+ Can use declarative or scripted syntax
+
+Let's look at the simple Jenkinsfile
+
+//scripted Pipeline
+#start with node
+
+node {
+
+  stage ("name of the stage like start" ) {
+
+      echo "starting"
+   } 
+
+  stage ("stage 2") {
+     echo "This is stage 2"
+
+   }
+
+   stage ("stage 3") {
+    echo "This is stage 3"
+   }  
+
+}
+
+Declaritive pipeline:
+
+pipeline {
+
+agent any
+    
+stages {
+
+  stage ('stage1'){
+    steps{
+      echo "stage 1 step 1"
+    }
+
+  }
+
+  stage ('stage2'){
+    steps{
+      echo "stage 2 step 1"
+    }
+
+  }
+
+}
+
+
+
+}

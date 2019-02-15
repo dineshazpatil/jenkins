@@ -1,0 +1,72 @@
+manual Configuration:
+    slower and less reliable
+setup/upgrade/config scripts
+    Fragile, one-time, difficlut to read 
+Golden images
+    Improvems deploymen time but then what?
+Documentation
+    is it complete
+Re-usability
+    across staging environment , customers, os
+Audit
+    what's state of infra ? what orgin og Configuration
+testing
+    cofident about effect of changes
+Workflow
+    common method to develop the 
+
+
+Ansible
+    implements and remediates a desired Configuration
+A purpose-built language to define Configuration
+
+
+Infra as code
+
+Describes and implements your config
+Well-established code , workflow for development, collabration and testing
+
+
+Jenkins
+CI and CD 
+
+CI
+    automated build , allowing teams to detect problems early.
+
+Does deploying the app test everything
+is server patched correctly
+Do al admins have access
+Have guest accounts been disabled
+Does it use the correct dns servers
+Does it have the correct NTP config
+are ops mgmt tools running , logging , monitoring
+
+
+
+Infra as code - ansible or dsc modules 
+commit to an scm
+Does it workflow
+Why don;t we automate this testing
+
+
+Problems:
+Same infra on all environment
+Versioning
+Quick deploying
+Production like environment
+
+
+
+Manual infra changes
+lack of Documentation and communication
+No Versioning
+Operational overhead
+
+
+Deployment flow
+Prepare a patch with a changes
+
+Merge a changes
+ Notification
+ change willloyed
+ 

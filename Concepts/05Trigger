@@ -1,0 +1,43 @@
+Triggers:
+
+Poll a build trigger 
+    jenkins will poll github for changes
+
+push build trigger  via webhooks
+    githuc pushes a notification to jenkins when is code changes 
+
+    open a job
+
+    build trigger
+    Poll scm
+    Schedule
+    * * * * *
+
+    check git polling log
+
+    Post build actions
+
+notification:
+
+ notification are alert sent to team.
+
+ Passive notification:
+    team has to check actively check the build or job status
+ Build monitor view
+        Build Monitor view plugin
+ Active notification (PUSH)
+        Proactively alert developer
+chat / IM
+
+Text messages
+
+Post Build action:
+    Email notifications
+
+    Editable email notification
+
+    plugin
+        slack notification
+
+
+    

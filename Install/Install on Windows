@@ -1,0 +1,15 @@
+Steps:
+1) Download and install JDK or JRE .
+2) Download latest package http://mirrors.jenkins.io/windows/latest
+3) Open Package and follow the instructions
+
+
+to stop:
+jenkins.exe stop
+
+to start:
+jenkins.exe start
+
+to restart:
+jenkins.exe restart
+

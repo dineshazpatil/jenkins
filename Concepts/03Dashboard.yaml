@@ -1,0 +1,38 @@
+--- 
+ MainConcepts:
+  - 1 Job
+  - 2 Build
+  - 3 View
+  - 4 Plugin
+
+ Few most important options os Jenkins admin console: 
+
+
+ Dashboard:
+  - Breadcrumbs
+  - Sidebar
+  - Build Queue
+  - Build Execution Status
+  - All-View:
+     a way to display jobs. Cloudy , Raing, Stormy
+  - Jobs/projects:
+     A runnable task (Compiling code, running tests, and so on)
+  - Build:
+     The result of a single execution of a job/project
+  - Build Status:
+     Last status of a build 
+  - Build trend:
+     weather icon showing the trend of the last builds
+
+
+ Manage Jenkins:
+  Configure System
+  Configure Global Security
+  Manage Plugins:
+    An extensions to add more functionality
+  Manage Nodes:
+    Nodes which will run the jobs
+
+
+    
+

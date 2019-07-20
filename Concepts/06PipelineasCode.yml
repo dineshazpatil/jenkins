@@ -52,6 +52,17 @@ Jenkinsfile
  Written using DSL based on Groovy
  Can use declarative or scripted syntax
 
+Pipeline concepts
+Pipeline
+node
+stage
+step
+
+
+
+
+
+
 Let's look at the simple Jenkinsfile
 
 //scripted Pipeline
@@ -85,20 +96,23 @@ stages {
 
   stage ('stage1'){
     steps{
-      echo "stage 1 step 1"
+      echo "stage 1 step "
     }
 
   }
 
   stage ('stage2'){
     steps{
-      echo "stage 2 step 1"
+      echo "stage 2 step "
     }
 
   }
 
 }
-
-
-
 }
+
+
+
+environment variable
+
+${env.JENKINS_URL}

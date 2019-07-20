@@ -1,0 +1,23 @@
+Jenkinsfile
+
+Automatically creates a Pipeline build process
+
+Code review of Pipeline
+
+Decalrative vs Scripted
+
+Decalrative (Recent)
+Provide rich features
+designed to make reading & writing Pipelines easier
+
+
+Why Pipeline
+add a powerfull set of automation tools onto Jenkins
+implemented in Code
+complex real-world CD requirement
+custom extensions
+Pipelines ca stop and wait
+
+
+
+
